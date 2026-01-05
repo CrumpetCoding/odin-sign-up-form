@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.form {
+    position: fixed;
+    background-color: white;
+}
+
+#background-image {
+    image-resolution: from-image;
+}
