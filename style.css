@@ -6,9 +6,15 @@ body {
 
 .form {
     position: fixed;
+    margin-left: 400px;    
     background-color: white;
 }
 
+.sidebar {
+    align-items: center;
+}
+
 #background-image {
-    image-resolution: from-image;
+    height: 50%;
+    width: auto;
 }
