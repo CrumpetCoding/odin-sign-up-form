@@ -4,17 +4,32 @@ body {
     margin: 0;
 }
 
-.form {
+.content {
     position: fixed;
-    margin-left: 400px;    
+    margin-left: 650px;    
     background-color: white;
 }
 
 .sidebar {
-    align-items: center;
+    flex: 0, 0, 40%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 40%;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #background-image {
-    height: 50%;
-    width: auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.text-area {
+    text-align: center;
+    padding: 100px;
 }
