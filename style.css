@@ -6,7 +6,7 @@ body {
 
 .content {
     position: fixed;
-    margin-left: 650px;    
+    margin-left: 614px;    
     background-color: white;
 }
 
@@ -30,9 +30,14 @@ body {
 }
 
 .logo {
-    justify-self: center;
+    position: fixed;
+    object-fit: cover;
     height: 200px;
+    width: 700px;
     background-color: black;
+    opacity: 50%;
+    margin-left: 0;
+    margin-top: 100px;
 }
 
 .text-area {
