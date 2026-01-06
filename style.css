@@ -29,6 +29,12 @@ body {
     z-index: 1;
 }
 
+.logo {
+    justify-self: center;
+    height: 200px;
+    background-color: black;
+}
+
 .text-area {
     text-align: center;
     padding: 100px;
