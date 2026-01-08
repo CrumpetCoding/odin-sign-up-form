@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Sign-Up</title>
 </head>
+
 <body>
-    <div class="sidebar">
-        <div class="logo">
-        </div>
-        <img id="background-image" src="images/scott-lord-KLFP4HwaXyk-unsplash.jpg">
-    </div>
     <div class="content">
-        <div class="text-area">
-            <h2>This is where you sign up. But this is not a real sign-up form so don't get carried away.</h2>
+        <div class="left-side">
+            <div class="logo">
+                <img id="logo-image" src="images/odin-lined.png" alt="The Odin Project Logo">
+                <h1 id="header">The Odin Project</h1>
+            </div>
+            <img id="background-image" src="images/scott-lord-KLFP4HwaXyk-unsplash.jpg">
+        </div>
+        <div class="right-side">
+            <div class="text-area">
+                <h2>This is where you sign up. But this is not a real sign-up form so don't get carried away.</h2>
+            </div>
+            <div class="form-area">
+                <form>
+                    <h3>Let's do this!</h3>
+                    <div class="name">
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required><br>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required><br>
+                    </div>
+                    <div class="contact">
+                        <input type="email" id="email" name="email" placeholder="Email" required><br>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number" required><br>
+                    </div>
+                    <div class="password">
+                        <input type="password" id="password" name="password" placeholder="Password" required><br>
+                        <input type="password" id="confirm-password" name="confirm-password"
+                            placeholder="Confirm Password" required><br>
+                    </div>
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
         </div>
     </div>
-</body> 
-</html> 
+</body>
+
+</html>
